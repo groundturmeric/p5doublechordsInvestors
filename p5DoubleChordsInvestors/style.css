@@ -1,0 +1,74 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(13,0,0);
+
+  
+}
+
+canvas {
+  display: block;
+}
+
+
+#intro{
+  height: 50vh;
+
+}
+#intro h1 {
+  margin-top: 8vh;
+  margin-left: 8vw;
+  text-align: left;
+  color: #999999;
+
+}
+
+#intro p {
+  /* font-size: 12px; */
+  margin-left: 3%;
+  max-width: 44vw;
+  text-align:left;
+  margin-left: 8vw;
+  margin-right:auto;
+  text-align:left;
+  color: #999999;
+}
+
+ul {
+  font-size: 12px;
+  text-align:left;
+  margin-left: 5vw;
+  color: #999999;
+
+}
+
+.companyTitle {
+  color:rgba(100, 210, 110, 200);
+  text-align: left;
+  font-size: 12pt;
+}
+
+.investorTitle {
+  color:rgba(220, 0, 200, 170);
+  text-align: left;
+  font-size: 12pt;
+}
+
+#List p{
+  color: rgba(250, 250, 250,250);
+  font-size: 7pt;
+}
+
+#Source h2 {
+  margin-left: 8vw;
+  text-align: left;
+  color: #999999;
+
+}
+
+#Source p{
+  margin-left: 8vw;
+  text-align: left;
+  color: #999999;
+}

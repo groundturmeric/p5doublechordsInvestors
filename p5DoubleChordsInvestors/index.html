@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sketch</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script src="libraries/p5.min.js"></script>
+    <script src="libraries/p5.sound.min.js"></script>
+  </head>
+
+  <body>
+    <div id = "intro">
+      <h1>Top 100 Investors and Companies </h1>
+      <p>
+        Explore the relationships between the top investors and the top companies through their investments/funding,
+        with this interactive visualization.
+        <br>
+        <ul>
+        <li>A list of clickable companies, with a visual representation of the amount they received.
+        </li>
+        <li>A list of clickable investors, with a visual representation of the amount they funded.
+        </li>
+        <li>
+          Hovering a company highlights its investors, hovering an investor highlights its companies.
+        </li>
+        <li>
+          Clicking on a company shows a list with all of their investments and corresponding amounts.
+         <li>
+          Clicking on an investor shows a list with all of their investments and corresponding amounts.
+         </li>
+        </li>
+        </ul>
+
+      </p>
+    </div>
+    <script src="sketch.js"></script>
+    <div id= "my-sketch"></div>
+
+    <div id="List">
+      <h1 class="companyTitle"></h1>
+      <h1 class="investorTitle"></h1>
+      <p></p>
+    </div>
+
+    <div id = "Source">
+      <h2>Data Source: </h2>
+      <p>
+        Investments data collected from         <a href="https://www.crunchbase.com/">  Crunchbase</a> for 2007 to 2016.
+
+      </p>
+    </div>
+  </body>
+</html>
